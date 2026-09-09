@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keks und Co – Datenschutz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Keks und Co – Bücher zum Verschenken, praktische Apps für den Alltag und Ideen mit Persönlichkeit.">
+<title>Keks und Co – Bücher, Apps & Ideen</title>
+<style>
+:root{--cream:#fff9f1;--paper:#fffdf9;--ink:#2e2926;--muted:#716861;--orange:#df6d2d;--yellow:#f3b43b;--pink:#df7283;--green:#80976b;--line:#eaded0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}a{color:inherit}.wrap{width:min(1100px,90%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(255,249,241,.96);border-bottom:1px solid var(--line)}nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;font-size:1.25rem;text-decoration:none}.brand span{color:var(--orange)}.links{display:flex;gap:24px;flex-wrap:wrap}.links a{text-decoration:none;font-weight:700;font-size:.94rem}.links a:hover{color:var(--orange)}
+.hero{padding:90px 0 70px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px}.eyebrow{font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);font-size:.8rem}.hero h1{font-size:clamp(3rem,8vw,6.4rem);line-height:.9;margin:12px 0 22px;letter-spacing:-.06em}.hero h1 span{display:block;color:var(--orange)}.lead{font-size:clamp(1.08rem,2vw,1.35rem);max-width:650px;color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 21px;border-radius:999px;text-decoration:none;font-weight:800;border:2px solid var(--ink);background:var(--ink);color:white}.btn.alt{background:transparent;color:var(--ink)}
+.cookie-art{min-height:390px;position:relative}.cookie{position:absolute;border-radius:50%;background:#d99851;border:8px solid #bd7439;box-shadow:0 18px 35px rgba(72,48,31,.15)}.cookie:before{content:"";position:absolute;width:13%;height:13%;background:#4b2d21;border-radius:50%;left:22%;top:25%;box-shadow:100px 22px 0 #4b2d21,46px 100px 0 #4b2d21,125px 115px 0 #4b2d21,15px 135px 0 #4b2d21}.c1{width:245px;height:245px;left:15%;top:10%;transform:rotate(-12deg)}.c2{width:170px;height:170px;right:2%;bottom:5%;transform:rotate(17deg);background:#e6b06d}.crumb{position:absolute;width:18px;height:18px;border-radius:45%;background:#b66e38}.r1{left:6%;bottom:17%}.r2{right:22%;top:5%;width:12px;height:12px}.r3{right:3%;top:38%;width:10px;height:10px}
+section{padding:75px 0}.section-title{text-align:center;margin-bottom:42px}.section-title small{color:var(--orange);font-weight:900;text-transform:uppercase;letter-spacing:.12em}.section-title h2{font-size:clamp(2rem,5vw,3.4rem);margin:5px 0 10px}.section-title p{color:var(--muted);max-width:650px;margin:auto}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{background:var(--paper);border:1px solid var(--line);border-radius:28px;padding:36px;box-shadow:0 14px 40px rgba(80,54,33,.06);position:relative;overflow:hidden}.card:after{content:"";position:absolute;width:100px;height:100px;border-radius:50%;right:-35px;top:-35px;background:var(--yellow);opacity:.2}.icon{font-size:2.5rem}.card h3{font-size:1.7rem;margin:12px 0 8px}.card p{color:var(--muted)}.card .link{font-weight:900;color:var(--orange);text-decoration:none}.note{font-size:.88rem;color:var(--muted);margin-top:18px}
+.about{background:#f5e8d8}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:center}.stamp{width:260px;height:260px;margin:auto;border:4px dashed var(--orange);border-radius:50%;display:grid;place-items:center;text-align:center;transform:rotate(-5deg);background:var(--cream);font-weight:900;font-size:1.5rem;line-height:1.2}.stamp b{display:block;color:var(--orange);font-size:2.1rem}.about h2{font-size:clamp(2rem,5vw,3.2rem);margin:0 0 15px}.about p{color:#5f5751}
+.legal{text-align:center}.legal-box{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:28px;max-width:760px;margin:auto}.legal a{font-weight:800;color:var(--orange)}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot a{text-decoration:none}
+@media(max-width:760px){.links{display:none}.hero{padding-top:55px}.hero-grid,.about-grid{grid-template-columns:1fr}.cookie-art{min-height:290px;order:-1}.c1{width:190px;height:190px}.c2{width:135px;height:135px}.cards{grid-template-columns:1fr}.stamp{width:210px;height:210px}section{padding:55px 0}}
+</style>
 </head>
 <body>
-  <h1>Keks und Co</h1>
-  <h2>Datenschutz & App-Informationen</h2>
-
-  <p>Hier finden Sie die Datenschutzinformationen zu den Apps von Keks und Co.</p>
-
-  <h3>VorratsCheck</h3>
-  <p>
-    <a href="datenschutz-vorratscheck.html">
-      Datenschutzerklärung für VorratsCheck
-    </a>
-  </p>
+<header><nav class="wrap"><a class="brand" href="#top">🍪 Keks <span>und Co</span></a><div class="links"><a href="#buecher">Bücher</a><a href="#apps">Apps</a><a href="#ueber">Über Keks und Co</a><a href="#rechtliches">Rechtliches</a></div></nav></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Willkommen bei Keks und Co</div><h1>Aus Ideen<br><span>wird einfach was.</span></h1><p class="lead">Bücher zum Verschenken, praktische Apps für den Alltag und jede Menge Ideen, die irgendwann unbedingt raus mussten.</p><div class="buttons"><a class="btn" href="#buecher">Bücher entdecken</a><a class="btn alt" href="#apps">Apps ansehen</a></div></div><div class="cookie-art" aria-hidden="true"><div class="cookie c1"></div><div class="cookie c2"></div><i class="crumb r1"></i><i class="crumb r2"></i><i class="crumb r3"></i></div></div></section>
+<section><div class="wrap"><div class="section-title"><small>Keks und Co</small><h2>Zwei Welten. Eine Menge Ideen.</h2><p>Hier findest du die Dinge, die unter Keks und Co entstehen – mal zum Blättern, mal zum Tippen, aber immer mit einer Idee dahinter.</p></div><div class="cards"><article class="card" id="buecher"><div class="icon">📚</div><h3>Bücher</h3><p>Geschenkbücher, Erinnerungsbücher und besondere Ideen, die nicht einfach nur im Regal stehen sollen.</p><a class="link" href="#">Bücherbereich kommt als Nächstes →</a><div class="note">Die veröffentlichten Titel und Kauflinks ergänzen wir hier nach und nach.</div></article><article class="card" id="apps"><div class="icon">📱</div><h3>Apps</h3><p>Kleine praktische Helfer für den Alltag – entstanden aus dem Gedanken: Das müsste doch einfacher gehen.</p><a class="link" href="datenschutz-vorratscheck.html">VorratsCheck – Datenschutz →</a><div class="note">Weitere Apps bekommen hier später ihren eigenen Platz.</div></article></div></div></section>
+<section class="about" id="ueber"><div class="wrap about-grid"><div class="stamp"><div>Idee.<br>Krümel.<b>Keks.</b>Fertig.</div></div><div><div class="eyebrow">Was ist eigentlich Keks und Co?</div><h2>Kein Konzern. Einfach Ideen, die gemacht werden.</h2><p>Keks und Co ist das Zuhause für meine Bücher, Apps und alles, was dazwischen noch entsteht. Nicht alles passt in dieselbe Schublade – und genau deshalb passt es hier zusammen.</p><p>Mal praktisch, mal witzig, mal ein bisschen anders. Hauptsache, es hat Persönlichkeit und macht am Ende genau das, wofür es gedacht ist.</p></div></div></section>
+<section class="legal" id="rechtliches"><div class="wrap"><div class="section-title"><small>Das notwendige Kleingedruckte</small><h2>Rechtliches</h2></div><div class="legal-box"><p>Die Datenschutzinformationen zu den einzelnen Apps bleiben selbstverständlich erreichbar.</p><p><a href="datenschutz-vorratscheck.html">Datenschutzerklärung VorratsCheck</a></p><p class="note">Impressum und allgemeine Datenschutzerklärung ergänzen wir als eigene Seiten.</p></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 Keks und Co</span><span><a href="#rechtliches">Datenschutz & Rechtliches</a> · keksundco.de</span></div></footer>
 </body>
 </html>
